@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "ATEFEH";
-const char* pass = "12345678910";
+const char* ssid = "AP";
+const char* pass = "PASS";
 
 void setup() {
   WiFi.begin(ssid, pass);
